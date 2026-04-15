@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О клинике — МЦ "Здоровье+"</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="log.png" alt="МЦ Здоровье+" class="logo-img">
+            <span class="logo-name">МЦ <span class="logo-accent">Здоровье+</span></span>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="about.html" class="active">О клинике</a></li>
+                <li><a href="services.php">Услуги и цены</a></li>
+                <li><a href="doctors.php">Врачи</a></li>
+                <li><a href="promo.html">Акции</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="cabinet.php">Личный кабинет</a></li>
+            </ul>
+        </nav>
+        <div class="header-contacts">
+            <a href="tel:+78001234567" class="phone">8 (800) 123-45-67</a>
+            <a href="appointment.php" class="btn btn-primary btn-small">Записаться</a>
+        </div>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<section class="page-header">
+    <div class="container">
+        <h1>О клинике</h1>
+        <div class="breadcrumbs">
+            <a href="index.php">Главная</a> / <span>О клинике</span>
+        </div>
+    </div>
+</section>
+
+<section class="about-stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">20</span>
+                <span class="stat-label">лет работы</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">65</span>
+                <span class="stat-label">врачей</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">150K</span>
+                <span class="stat-label">пациентов</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">12</span>
+                <span class="stat-label">отделений</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-content">
+                <h2>Медицинский центр <span class="highlight">«Здоровье+»</span></h2>
+                <p class="about-text">Мы работаем с 2005 года и за это время помогли более 150 000 пациентов. Наша миссия — сделать качественную медицинскую помощь доступной и удобной для каждого.</p>
+                <p class="about-text">В клинике работают 65 врачей высшей категории, кандидаты и доктора медицинских наук. Мы постоянно повышаем квалификацию и внедряем современные методы лечения.</p>
+                
+                <div class="about-quote">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Главное для нас — здоровье и комфорт наших пациентов. Мы создаём уютную атмосферу и используем только проверенные методики лечения.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="107.jpg" alt="Медицинский центр Здоровье+">
+                <div class="about-image-fallback">
+                    <i class="fas fa-building"></i>
+                    <p>Фото клиники</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="advantages">
+    <div class="container">
+        <div class="section-header">
+            <h2>Почему выбирают <span class="highlight">нас</span></h2>
+        </div>
+        <div class="advantages-grid">
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3>Собственная лаборатория</h3>
+                <p>Быстрые и точные анализы без ожидания. Результаты за 24 часа.</p>
+            </div>
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-magnet"></i>
+                </div>
+                <h3>МРТ 3 Тесла</h3>
+                <p>Современный томограф экспертного класса для точной диагностики.</p>
+            </div>
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-truck-medical"></i>
+                </div>
+                <h3>Вызов на дом</h3>
+                <p>Приезжаем к пациентам по всему городу в удобное для вас время.</p>
+            </div>
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>Без очередей</h3>
+                <p>Работаем строго по записи. Ваше время — наш приоритет.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="licenses">
+    <div class="container">
+        <div class="section-header">
+            <h2>Лицензии и <span class="highlight">сертификаты</span></h2>
+            <p class="section-desc">Мы работаем официально и открыто</p>
+        </div>
+        <div class="licenses-grid">
+            <div class="license-card">
+                <img src="img/license1.jpg" alt="Лицензия" onerror="this.style.display='none'; this.parentNode.classList.add('no-license');">
+                <div class="license-fallback">
+                    <i class="fas fa-file-contract"></i>
+                    <p>Лицензия № ЛО-77-01-012345</p>
+                </div>
+            </div>
+            <div class="license-card">
+                <img src="img/license2.jpg" alt="Сертификат" onerror="this.style.display='none'; this.parentNode.classList.add('no-license');">
+                <div class="license-fallback">
+                    <i class="fas fa-certificate"></i>
+                    <p>Сертификат соответствия</p>
+                </div>
+            </div>
+            <div class="license-card">
+                <img src="img/license3.jpg" alt="Диплом" onerror="this.style.display='none'; this.parentNode.classList.add('no-license');">
+                <div class="license-fallback">
+                    <i class="fas fa-award"></i>
+                    <p>Награда "Лучшая клиника года"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2>Фотогалерея</h2>
+            <p class="section-desc">Посмотрите, как устроена наша клиника</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="108.jpg" alt="Интерьер клиники">
+                <div class="gallery-fallback"><i class="fas fa-image"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="109.jpg" alt="Кабинет врача">
+                <div class="gallery-fallback"><i class="fas fa-image"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="110.jpg" alt="Приёмная">
+                <div class="gallery-fallback"><i class="fas fa-image"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="111.jpg" alt="Оборудование">
+                <div class="gallery-fallback"><i class="fas fa-image"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <div class="footer-logo-text">
+                        <span class="footer-logo-prefix">МЦ</span>
+                        <span class="footer-logo-accent">Здоровье+</span>
+                    </div>
+                </div>
+                <p class="footer-about">Современный медицинский центр с собственным диагностическим оборудованием и опытными врачами.</p>
+                <p class="footer-license">Лицензия № ЛО-77-01-012345</p>
+            </div>
+            <div class="footer-col">
+                <h4>О клинике</h4>
+                <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="#">Лицензии</a></li>
+                    <li><a href="#">Фотогалерея</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Пациентам</h4>
+                <ul>
+                    <li><a href="services.php">Услуги и цены</a></li>
+                    <li><a href="doctors.php">Врачи</a></li>
+                    <li><a href="promo.html">Акции</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <ul>
+                    <li><a href="contacts.html">Адрес</a></li>
+                    <li><a href="contacts.html">Обратная связь</a></li>
+                    <li><a href="appointment.php">Запись онлайн</a></li>
+                    <li><a href="#">Вопрос-ответ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Медицинский центр «Здоровье+».</p>
+            <p>Разработка Web-сайта — курсовой проект</p>
+        </div>
+    </div>
+</footer>
+<script>
+    // Бургер-меню
+    document.addEventListener('DOMContentLoaded', function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('.nav');
+        
+        if (burger && nav) {
+            burger.onclick = function() {
+                nav.classList.toggle('active');
+                burger.classList.toggle('active');
+            };
+        }
+    });
+</script>
+</body>
+</html>
