@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — МЦ «Здоровье+»</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="log.png" alt="МЦ Здоровье+" class="logo-img">
+            <span class="logo-name">МЦ <span class="logo-accent">Здоровье+</span></span>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="about.html">О клинике</a></li>
+                <li><a href="services.php">Услуги и цены</a></li>
+                <li><a href="doctors.php">Врачи</a></li>
+                <li><a href="promo.html">Акции</a></li>
+                <li><a href="contacts.html" class="active">Контакты</a></li>
+                <li><a href="cabinet.php">Личный кабинет</a></li>
+            </ul>
+        </nav>
+        <div class="header-contacts">
+            <a href="tel:+78001234567" class="phone">8 (800) 123-45-67</a>
+            <a href="appointment.php" class="btn btn-primary btn-small">Записаться</a>
+        </div>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Контакты</h1>
+        <div class="breadcrumbs">
+            <a href="index.php">Главная</a> / <span>Контакты</span>
+        </div>
+    </div>
+</section>
+
+<section class="contact-info">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-details">
+                <div class="section-header">
+                    <h2>Как с нами <span class="highlight">связаться</span></h2>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Адрес</h3>
+                        <p>Москва, ул. Кожевническая, д. 10, стр. 1<br>м. Павелецкая</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Телефон</h3>
+                        <p><a href="tel:+78001234567">8 (800) 123-45-67</a> (круглосуточно)</p>
+                        <p><a href="tel:+74951234567">8 (495) 123-45-67</a> (администратор)</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@mc-zdorovie.ru">info@mc-zdorovie.ru</a></p>
+                        <p><a href="mailto:zapis@mc-zdorovie.ru">zapis@mc-zdorovie.ru</a> (запись)</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Режим работы</h3>
+                        <p>Пн-Пт: 9:00 – 20:00</p>
+                        <p>Сб: 10:00 – 16:00</p>
+                        <p>Вс: выходной</p>
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-map">
+                <div class="map-container">
+                    <img src="karta.png" alt="Карта проезда">
+                    <div class="map-fallback">
+                        <i class="fas fa-map"></i>
+                        <p>Карта проезда</p>
+                        <span>м. Павелецкая, ул. Кожевническая, д. 10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-form-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Напишите <span class="highlight">нам</span></h2>
+            <p class="section-desc">Мы ответим в ближайшее время</p>
+        </div>
+        
+        <form class="contact-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="form-group full-width">
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <div class="footer-logo-text">
+                        <span class="footer-logo-prefix">МЦ</span>
+                        <span class="footer-logo-accent">Здоровье+</span>
+                    </div>
+                </div>
+                <p class="footer-about">Современный медицинский центр с собственным диагностическим оборудованием и опытными врачами.</p>
+                <p class="footer-license">Лицензия № ЛО-77-01-012345</p>
+            </div>
+            <div class="footer-col">
+                <h4>О клинике</h4>
+                <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="#">Лицензии</a></li>
+                    <li><a href="#">Фотогалерея</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Пациентам</h4>
+                <ul>
+                    <li><a href="services.php">Услуги и цены</a></li>
+                    <li><a href="doctors.php">Врачи</a></li>
+                    <li><a href="promo.html">Акции</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <ul>
+                    <li><a href="contacts.html">Адрес</a></li>
+                    <li><a href="contacts.html">Обратная связь</a></li>
+                    <li><a href="appointment.php">Запись онлайн</a></li>
+                    <li><a href="#">Вопрос-ответ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Медицинский центр «Здоровье+».</p>
+            <p>Разработка Web-сайта — курсовой проект</p>
+        </div>
+    </div>
+</footer>
+<script>
+    // Бургер-меню
+    document.addEventListener('DOMContentLoaded', function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('.nav');
+        
+        if (burger && nav) {
+            burger.onclick = function() {
+                nav.classList.toggle('active');
+                burger.classList.toggle('active');
+            };
+        }
+    });
+</script>
+</body>
+</html>
